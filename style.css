@@ -92,7 +92,7 @@ section h1 {
     background-image: url(./imges/eu.jpg);
 }
 
-.container section:nth-child(1):hover {
+/* .container section:nth-child(1):hover {
     background-image: url(./imges/kbs2.jpg);
     filter: grayscale(100%);
 }
@@ -110,17 +110,16 @@ section h1 {
 .container section:nth-child(4):hover {
     background-image: url(./imges/eu2.jpg);
     filter: grayscale(100%);
-}
+} */
 
-
-/* .container section {
-    체도 조정: 0 ~ 100
+.container section:hover {
     filter: grayscale(100%);
 }
 
-.container section:hover {
+.container section {
+    /* 체도 조정: 0 ~ 100  */
     filter: grayscale(0%);
-} */
+}
 
 /* 메뉴 텍스트 hover 하이라이트 */
 nav a:hover {
