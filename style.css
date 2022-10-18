@@ -70,22 +70,22 @@ section {
 
 .kbs ul li ul {
     top: 100px;
-    left: 160px;
+    left: 85px;
 }
 
 .ne ul li ul {
     top: 100px;
-    left: 150px;
+    left: 70px;
 }
 
 .phs ul li ul {
     top: 100px;
-    left: 170px;
+    left: 97px;
 }
 
 .ls ul li ul {
     top: 100px;
-    left: 140px;
+    left: 67px;
 }
 
 .box ul li:hover>ul {
