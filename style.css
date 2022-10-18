@@ -38,12 +38,66 @@ section {
     position: relative;
 }
 
+.section .kbs a {
+    display: inline-block;
+    color: white;
+    margin-top: 150px;
+    font-size: 35px;
+}
+
+.section ul {
+    list-style-type: none;
+}
+
+.box ul {
+    position: relative;
+    top: 150px;
+}
+
+.box ul li {
+    padding: 10px 100px;
+    font-size: 50px;
+}
+
+.box ul li ul {
+    display: none;
+    position: absolute;
+}
+
+.box ul li ul li {
+    font-size: 25px;
+}
+
+.kbs ul li ul {
+    top: 100px;
+    left: 160px;
+}
+
+.ne ul li ul {
+    top: 100px;
+    left: 150px;
+}
+
+.phs ul li ul {
+    top: 100px;
+    left: 170px;
+}
+
+.ls ul li ul {
+    top: 100px;
+    left: 140px;
+}
+
+.box ul li:hover>ul {
+    display: block;
+}
+
 .title-group {
     width: 100%;
     /* outline: 1px solid red; */
     position: absolute;
     /* left: calc(50% - 120px / 2); */
-    top: calc(50% - 222px / 2);
+    top: calc(70% - 222px / 2);
 }
 
 .title-group h1 {
@@ -59,7 +113,6 @@ section {
 header h1 {
     position: absolute;
     left: 40px;
-    top: 50px;
     z-index: 1;
 }
 
@@ -92,26 +145,6 @@ section h1 {
     background-image: url(./imges/eu.jpg);
 }
 
-/* .container section:nth-child(1):hover {
-    background-image: url(./imges/kbs2.jpg);
-    filter: grayscale(100%);
-}
-
-.container section:nth-child(2):hover {
-    background-image: url(./imges/na2.jpg);
-    filter: grayscale(100%);
-}
-
-.container section:nth-child(3):hover {
-    background-image: url(./imges/phs2.jpg);
-    filter: grayscale(100%);
-}
-
-.container section:nth-child(4):hover {
-    background-image: url(./imges/eu2.jpg);
-    filter: grayscale(100%);
-} */
-
 .container section:hover {
     filter: grayscale(100%);
 }
@@ -119,6 +152,26 @@ section h1 {
 .container section {
     /* 체도 조정: 0 ~ 100  */
     filter: grayscale(0%);
+}
+
+.container #sec1:active {
+    background-image: url(./imges/kbs2.jpg);
+    transition: 0.5s;
+}
+
+.container #sec2:active {
+    background-image: url(./imges/na2.jpg);
+    transition: 0.5s;
+}
+
+.container #sec3:active {
+    background-image: url(./imges/phs2.jpg);
+    transition: 0.5s;
+}
+
+.container #sec4:active {
+    background-image: url(./imges/eu2.jpg);
+    transition: 1s;
 }
 
 /* 메뉴 텍스트 hover 하이라이트 */
